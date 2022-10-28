@@ -1,39 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-28T09:23:19 IST" name="Loan Departments" finished-at="2022-10-28T09:23:19 IST" duration-ms="93">
+  <suite started-at="2022-10-28T22:22:58 IST" name="Default suite" finished-at="2022-10-28T22:22:58 IST" duration-ms="102">
     <groups>
+      <group name="Smoke">
+        <method signature="CarLoan.CarLoanUI()[pri:0, instance:TestNGEx.CarLoan@524d6d96]" name="CarLoanUI" class="TestNGEx.CarLoan"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2022-10-28T09:23:19 IST" name="Package Test" finished-at="2022-10-28T09:23:19 IST" duration-ms="93">
+    <test started-at="2022-10-28T22:22:58 IST" name="Default test" finished-at="2022-10-28T22:22:58 IST" duration-ms="102">
       <class name="TestNGEx.CarLoan">
-        <test-method signature="CarLoanAPI()[pri:0, instance:TestNGEx.CarLoan@13b13b5d]" started-at="2022-10-28T09:23:19 IST" name="CarLoanAPI" finished-at="2022-10-28T09:23:19 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CarLoanAPI -->
-        <test-method signature="CarLoanMobile()[pri:0, instance:TestNGEx.CarLoan@13b13b5d]" started-at="2022-10-28T09:23:19 IST" name="CarLoanMobile" finished-at="2022-10-28T09:23:19 IST" duration-ms="2" status="PASS">
+        <test-method signature="CarLoanMobile()[pri:0, instance:TestNGEx.CarLoan@524d6d96]" started-at="2022-10-28T22:22:58 IST" name="CarLoanMobile" finished-at="2022-10-28T22:22:58 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CarLoanMobile -->
-        <test-method signature="CarLoanUI()[pri:0, instance:TestNGEx.CarLoan@13b13b5d]" started-at="2022-10-28T09:23:19 IST" name="CarLoanUI" finished-at="2022-10-28T09:23:19 IST" duration-ms="2" status="PASS">
+        <test-method signature="CarLoanUI()[pri:0, instance:TestNGEx.CarLoan@524d6d96]" started-at="2022-10-28T22:22:58 IST" name="CarLoanUI" finished-at="2022-10-28T22:22:58 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CarLoanUI -->
+        <test-method signature="CarLoanAPI()[pri:0, instance:TestNGEx.CarLoan@524d6d96]" started-at="2022-10-28T22:22:58 IST" name="CarLoanAPI" finished-at="2022-10-28T22:22:58 IST" depends-on-methods="TestNGEx.CarLoan.CarLoanMobile" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanAPI -->
       </class> <!-- TestNGEx.CarLoan -->
-      <class name="TestNGEx.HomeLoan">
-        <test-method signature="HomeLoanAPI()[pri:0, instance:TestNGEx.HomeLoan@68c72235]" started-at="2022-10-28T09:23:19 IST" name="HomeLoanAPI" finished-at="2022-10-28T09:23:19 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomeLoanAPI -->
-        <test-method signature="HomeLoanMobile()[pri:0, instance:TestNGEx.HomeLoan@68c72235]" started-at="2022-10-28T09:23:19 IST" name="HomeLoanMobile" finished-at="2022-10-28T09:23:19 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomeLoanMobile -->
-        <test-method signature="HomeLoanUI()[pri:0, instance:TestNGEx.HomeLoan@68c72235]" started-at="2022-10-28T09:23:19 IST" name="HomeLoanUI" finished-at="2022-10-28T09:23:19 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomeLoanUI -->
-      </class> <!-- TestNGEx.HomeLoan -->
-    </test> <!-- Package Test -->
-  </suite> <!-- Loan Departments -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

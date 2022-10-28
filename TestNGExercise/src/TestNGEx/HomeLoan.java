@@ -14,7 +14,7 @@ public class HomeLoan {
 		System.out.println("HomeLoanMobile");
 	}
 	
-	@Test
+	@Test(groups = "Smoke")
 	public void HomeLoanAPI() {
 		System.out.println("HomeLoanAPI");
 	}
