@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Loan Departments">
+<listeners>
+<listener class-name="TestNGEx.Listeners"></listener>
+</listeners>
 <parameter name="URL" value="www.google.com"></parameter>
 
 	<test name="Package Test">

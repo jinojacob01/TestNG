@@ -1,4 +1,6 @@
 package TestNGEx;
+import static org.testng.Assert.assertTrue;
+
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -16,6 +18,7 @@ public class HomeLoan {
 	public void HomeLoanMobile(String urlname) {
 		System.out.println("HomeLoanMobile");
 		System.out.println(urlname);
+		assertTrue(false);
 	}
 	
 	@Test(groups = "Smoke")
