@@ -1,50 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-29T08:05:56 IST" name="Loan Departments" finished-at="2022-10-29T08:05:57 IST" duration-ms="76">
+  <suite started-at="2022-10-31T21:24:14 IST" name="Default suite" finished-at="2022-10-31T21:24:15 IST" duration-ms="60">
     <groups>
-      <group name="Smoke">
-        <method signature="HomeLoan.HomeLoanAPI()[pri:0, instance:TestNGEx.HomeLoan@346d61be]" name="HomeLoanAPI" class="TestNGEx.HomeLoan"/>
-        <method signature="CarLoan.CarLoanUI()[pri:0, instance:TestNGEx.CarLoan@55b53d44]" name="CarLoanUI" class="TestNGEx.CarLoan"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2022-10-29T08:05:56 IST" name="Package Test" finished-at="2022-10-29T08:05:57 IST" duration-ms="76">
-      <class name="TestNGEx.CarLoan">
-        <test-method signature="CarLoanMobile()[pri:0, instance:TestNGEx.CarLoan@55b53d44]" started-at="2022-10-29T08:05:56 IST" name="CarLoanMobile" finished-at="2022-10-29T08:05:56 IST" duration-ms="11" status="PASS">
+    <test started-at="2022-10-31T21:24:14 IST" name="Default test" finished-at="2022-10-31T21:24:15 IST" duration-ms="60">
+      <class name="TestNGEx.DataProviderAnnotation">
+        <test-method is-config="true" signature="bm()[pri:0, instance:TestNGEx.DataProviderAnnotation@770d3326]" started-at="2022-10-31T21:24:14 IST" name="bm" finished-at="2022-10-31T21:24:14 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CarLoanMobile -->
-        <test-method signature="CarLoanUI()[pri:0, instance:TestNGEx.CarLoan@55b53d44]" started-at="2022-10-29T08:05:56 IST" name="CarLoanUI" finished-at="2022-10-29T08:05:56 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CarLoanUI -->
-        <test-method signature="CarLoanAPI()[pri:0, instance:TestNGEx.CarLoan@55b53d44]" started-at="2022-10-29T08:05:56 IST" name="CarLoanAPI" finished-at="2022-10-29T08:05:56 IST" depends-on-methods="TestNGEx.CarLoan.CarLoanMobile" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CarLoanAPI -->
-      </class> <!-- TestNGEx.CarLoan -->
-      <class name="TestNGEx.HomeLoan">
-        <test-method signature="HomeLoanAPI()[pri:0, instance:TestNGEx.HomeLoan@346d61be]" started-at="2022-10-29T08:05:56 IST" name="HomeLoanAPI" finished-at="2022-10-29T08:05:56 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomeLoanAPI -->
-        <test-method signature="HomeLoanMobile(java.lang.String)[pri:0, instance:TestNGEx.HomeLoan@346d61be]" started-at="2022-10-29T08:05:57 IST" name="HomeLoanMobile" finished-at="2022-10-29T08:05:57 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- bm -->
+        <test-method signature="printData(java.lang.String,java.lang.String)[pri:0, instance:TestNGEx.DataProviderAnnotation@770d3326]" started-at="2022-10-31T21:24:14 IST" name="printData" data-provider="getData" finished-at="2022-10-31T21:24:14 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[www.google11111.com]]>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomeLoanMobile -->
-        <test-method signature="HomeLoanUI()[pri:0, instance:TestNGEx.HomeLoan@346d61be]" started-at="2022-10-29T08:05:57 IST" name="HomeLoanUI" finished-at="2022-10-29T08:05:57 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- printData -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:TestNGEx.DataProviderAnnotation@770d3326]" started-at="2022-10-31T21:24:14 IST" name="bm" finished-at="2022-10-31T21:24:14 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomeLoanUI -->
-      </class> <!-- TestNGEx.HomeLoan -->
-    </test> <!-- Package Test -->
-  </suite> <!-- Loan Departments -->
+        </test-method> <!-- bm -->
+        <test-method is-config="true" signature="am()[pri:0, instance:TestNGEx.DataProviderAnnotation@770d3326]" started-at="2022-10-31T21:24:14 IST" name="am" finished-at="2022-10-31T21:24:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method signature="printData(java.lang.String,java.lang.String)[pri:0, instance:TestNGEx.DataProviderAnnotation@770d3326]" started-at="2022-10-31T21:24:14 IST" name="printData" data-provider="getData" finished-at="2022-10-31T21:24:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printData -->
+        <test-method is-config="true" signature="am()[pri:0, instance:TestNGEx.DataProviderAnnotation@770d3326]" started-at="2022-10-31T21:24:14 IST" name="am" finished-at="2022-10-31T21:24:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method signature="printData(java.lang.String,java.lang.String)[pri:0, instance:TestNGEx.DataProviderAnnotation@770d3326]" started-at="2022-10-31T21:24:14 IST" name="printData" data-provider="getData" finished-at="2022-10-31T21:24:14 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printData -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:TestNGEx.DataProviderAnnotation@770d3326]" started-at="2022-10-31T21:24:14 IST" name="bm" finished-at="2022-10-31T21:24:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method is-config="true" signature="am()[pri:0, instance:TestNGEx.DataProviderAnnotation@770d3326]" started-at="2022-10-31T21:24:14 IST" name="am" finished-at="2022-10-31T21:24:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method signature="test()[pri:0, instance:TestNGEx.DataProviderAnnotation@770d3326]" started-at="2022-10-31T21:24:14 IST" name="test" finished-at="2022-10-31T21:24:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:TestNGEx.DataProviderAnnotation@770d3326]" started-at="2022-10-31T21:24:14 IST" name="bm" finished-at="2022-10-31T21:24:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method is-config="true" signature="am()[pri:0, instance:TestNGEx.DataProviderAnnotation@770d3326]" started-at="2022-10-31T21:24:14 IST" name="am" finished-at="2022-10-31T21:24:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+      </class> <!-- TestNGEx.DataProviderAnnotation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
